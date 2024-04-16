@@ -8,6 +8,11 @@ https://drive.google.com/file/d/1s5K0FlUOKUKknhKh9runmjDKouIAVxwM/view?usp=shari
   - `Kosmos-2` - https://github.com/microsoft/unilm/tree/master/kosmos-2
   - `GPT4` - https://platform.openai.com/docs/guides/vision (We use `gpt-4-vision-preview` API)
   - `Gemini` - https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini#gemini-1.0-pro-vision
+- Links for calculating evaluation metric values for the Satirical Understanding Task
+  - `BLEU` - https://huggingface.co/spaces/evaluate-metric/bleu
+  - `METEOR` - https://huggingface.co/spaces/evaluate-metric/meteor 
+  - `ROUGE-L` - https://pypi.org/project/py-rouge/ (F1-Score)
+  - `BERTScore` - https://github.com/Tiiiger/bert_score
 - `generate_using_dalle3.ipynb` - contains the code for generating images using DALL-E 3
 
 ## Predicted Overall Image Descriptions
