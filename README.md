@@ -22,7 +22,7 @@
   - `ROUGE-L` - https://pypi.org/project/py-rouge/ (F1-Score)
   - `BERTScore` - https://github.com/Tiiiger/bert_score
 - `generate_using_dalle3.ipynb` - contains the code for generating images using DALL-E 3
-- `Human_Eval_Results.csv` - contains Human Evaluation outcomes (majority vote per sample) of the Satirical Understanding Task on 30 images (10 images randomly sampled from each of Annotation Stages 2, 3, 4). Some columns and column headers are elaborated as follows - 
+- `Human_Eval_Results.csv` - contains Human Evaluation outcomes (majority vote per sample) of the Satirical Understanding Task on 30 images (10 images randomly sampled from each of Annotation Stages 2, 3, 4), along with the corresponding human-written as well as model-generated (by 5 SOTA VL Models) overall image descriptions. Some columns and column headers are elaborated as follows - 
   - `image_filename` - correspond to images present in `human_eval_images` foider
   - For columns related to Appropriate Length, Correctness, Faithfulness, Visual Completeness, a blank value means that the annotator does not think that the corresponding aspect is being followed for the description, and vice versa.
   - `order_of_overall_img_descriptions` - this column contains the list of models (or whether it is humman-written) to which the 6 descriptions correspond to in that order. The values mean the following things -
@@ -33,85 +33,32 @@
     - `gpt4vision` - Description generated using GPT4
     - `gemini` - Description generated using Gemini    
 
-## Predicted Overall Image Descriptions
+## Model-generated Overall Image Descriptions
 
 ### LLaVA
 
-![png](llava_files/llava_1.png)
-    
+| Image                 | Description                             |
+|-----------------------|-----------------------------------------|
+| ![png](llava_files/llava_1.png) | The image is funny and satirical because it features a man and a woman in two different scenes, each with a different message. In one scene, the man is standing behind a roped-off area, seemingly watching the woman walk by. The other scene has the man and woman standing in front of a "Do Not Enter" sign, with the man looking on as the woman walks by. The contrast between the two scenes creates a humorous and ironic commentary on societal norms and expectations. The image also plays with the idea of the "other side" of the rope, which is |
+| ![png](llava_files/llava_2.png) | The image is funny and satirical because it features a cartoon drawing of a man with a purple mohawk and glasses, surrounded by microphones, and the phrase "Expert, Astronomy" is displayed above him. This juxtaposition creates a humorous and ironic situation, as the man's appearance and occupation seem unrelated or even contradictory. The image likely intends to make a commentary on the absurdity of certain labels or assumptions people might make based on appearance or stereotypes. |
+| ![png](llava_files/llava_3.png) | The image is funny and satirical because it features a person with a flower in their hair lying on the ground with several dogs surrounding them. The juxtaposition of the person and the dogs creates a humorous scene, as the person is seemingly trying to escape the dogs or simply relaxing in their presence. The image could be interpreted as a commentary on the relationship between humans and dogs, or it could be a playful representation of the human-animal bond. The fact that the person has a flower in their hair adds a whimsical touch to the scene, further emphasizing the lighthearted and |
+| ![png](llava_files/llava_4.png) | The image is funny and satirical because it uses a common object, a water bottle, and combines it with a popular internet meme format, the "Yes, but" structure. The image juxtaposes a water bottle with the text "Yes, but" and a picture of water pouring from the bottle. This combination creates a humorous and lighthearted visual, making the viewer question the necessity of having a dedicated meme format for such a simple and everyday object. The humor lies in the absurdity of taking a simple object and turning it into a meme, as |
+| ![png](llava_files/llava_5.png) | The image is funny and satirical because it shows a person taking a picture of a red moon with a cell phone, while the actual moon is seen in the background. This juxtaposition creates a humorous contrast between the person's perceived reality and the actual situation. It can also be interpreted as a commentary on the reliance on technology for capturing moments and the disconnection from the natural world. |
+| ![png](llava_files/llava_6.png) | The image is funny and satirical because it uses a visual pun to represent the concept of shopping. The picture shows a clothes hanger with a jacket on it, and below it, there is a chair with a jacket hanging on it. This juxtaposition creates a humorous visual pun, as the clothes hanger and the chair appear to be doing the same thing, but with different objects. The image also uses the word "Yes" in one panel and "But" in the other, adding a layer of irony and humor to the scene. The image thus plays with the viewer' |
+| ![png](llava_files/llava_7.png) | The image is funny and satirical because it shows a person holding a ticket to a stadium with a large number of empty seats. The caption "Yes, but" is displayed above the image, suggesting that despite the empty seats, the event is still happening. This contrasts with the actuality of the event being poorly attended, which is further emphasized by the person being the only one in the image. The humor comes from the irony of the situation and the contrast between the expectation of a crowded event and the actuality of an empty stadium. |
+| ![png](llava_files/llava_8.png) | The image is funny and satirical because it presents a humorous and exaggerated scenario of a woman getting her teeth cleaned. The comic strip shows a woman holding a toothbrush in her mouth, and a person is injecting her with a syringe. This unusual combination of dental care and medical treatment creates a humorous and unexpected situation, as dental care typically does not involve the use of syringes. The comic strip plays with the contrast between these two activities, which are usually separate, and the absurdity of the situation adds to the humor. |
+| ![png](llava_files/llava_9.png) | The image is funny and satirical because it presents a comical scenario of a woman sitting on a chair, looking over her shoulder, and typing on a computer. The scene is drawn in a comic strip style, with a split-screen showing the woman's back and the computer keyboard. The image is funny because it exaggerates the typical posture of a person using a computer, which can be seen as humorous or even ironic. The satire in the image lies in the representation of the woman's posture and the implied critique of the ergonomics and comfort of using a computer |
 
+### GPT4
 
-    The image is funny and satirical because it features a man and a woman in two different scenes, each with a different message. In one scene, the man is standing behind a roped-off area, seemingly watching the woman walk by. The other scene has the man and woman standing in front of a "Do Not Enter" sign, with the man looking on as the woman walks by. The contrast between the two scenes creates a humorous and ironic commentary on societal norms and expectations. The image also plays with the idea of the "other side" of the rope, which is
-
-
-
-    
-![png](llava_files/llava_2.png)
-    
-
-
-    The image is funny and satirical because it features a cartoon drawing of a man with a purple mohawk and glasses, surrounded by microphones, and the phrase "Expert, Astronomy" is displayed above him. This juxtaposition creates a humorous and ironic situation, as the man's appearance and occupation seem unrelated or even contradictory. The image likely intends to make a commentary on the absurdity of certain labels or assumptions people might make based on appearance or stereotypes.
-
-
-
-    
-![png](llava_files/llava_3.png)
-    
-
-
-    The image is funny and satirical because it features a person with a flower in their hair lying on the ground with several dogs surrounding them. The juxtaposition of the person and the dogs creates a humorous scene, as the person is seemingly trying to escape the dogs or simply relaxing in their presence. The image could be interpreted as a commentary on the relationship between humans and dogs, or it could be a playful representation of the human-animal bond. The fact that the person has a flower in their hair adds a whimsical touch to the scene, further emphasizing the lighthearted and
-
-
-
-    
-![png](llava_files/llava_4.png)
-    
-
-
-    The image is funny and satirical because it uses a common object, a water bottle, and combines it with a popular internet meme format, the "Yes, but" structure. The image juxtaposes a water bottle with the text "Yes, but" and a picture of water pouring from the bottle. This combination creates a humorous and lighthearted visual, making the viewer question the necessity of having a dedicated meme format for such a simple and everyday object. The humor lies in the absurdity of taking a simple object and turning it into a meme, as
-
-
-
-    
-![png](llava_files/llava_5.png)
-    
-
-
-    The image is funny and satirical because it shows a person taking a picture of a red moon with a cell phone, while the actual moon is seen in the background. This juxtaposition creates a humorous contrast between the person's perceived reality and the actual situation. It can also be interpreted as a commentary on the reliance on technology for capturing moments and the disconnection from the natural world.
-
-
-
-    
-![png](llava_files/llava_6.png)
-    
-
-
-    The image is funny and satirical because it uses a visual pun to represent the concept of shopping. The picture shows a clothes hanger with a jacket on it, and below it, there is a chair with a jacket hanging on it. This juxtaposition creates a humorous visual pun, as the clothes hanger and the chair appear to be doing the same thing, but with different objects. The image also uses the word "Yes" in one panel and "But" in the other, adding a layer of irony and humor to the scene. The image thus plays with the viewer'
-
-
-
-    
-![png](llava_files/llava_7.png)
-    
-
-
-    The image is funny and satirical because it shows a person holding a ticket to a stadium with a large number of empty seats. The caption "Yes, but" is displayed above the image, suggesting that despite the empty seats, the event is still happening. This contrasts with the actuality of the event being poorly attended, which is further emphasized by the person being the only one in the image. The humor comes from the irony of the situation and the contrast between the expectation of a crowded event and the actuality of an empty stadium.
-
-
-
-    
-![png](llava_files/llava_8.png)
-    
-
-
-    The image is funny and satirical because it presents a humorous and exaggerated scenario of a woman getting her teeth cleaned. The comic strip shows a woman holding a toothbrush in her mouth, and a person is injecting her with a syringe. This unusual combination of dental care and medical treatment creates a humorous and unexpected situation, as dental care typically does not involve the use of syringes. The comic strip plays with the contrast between these two activities, which are usually separate, and the absurdity of the situation adds to the humor.
-
-
-
-    
-    
-![png](llava_files/llava_9.png)
-    
-
-
-    The image is funny and satirical because it presents a comical scenario of a woman sitting on a chair, looking over her shoulder, and typing on a computer. The scene is drawn in a comic strip style, with a split-screen showing the woman's back and the computer keyboard. The image is funny because it exaggerates the typical posture of a person using a computer, which can be seen as humorous or even ironic. The satire in the image lies in the representation of the woman's posture and the implied critique of the ergonomics and comfort of using a computer
+| Image                 | Description                             |
+|-----------------------|-----------------------------------------|
+| ![png](llava_files/llava_1.png) | This image is humorous because it showcases the inconsistency of rules and how they are enforced. The left panel shows a strictly enforced no-cap policy for a lone individual, while the right panel humorously contrasts this with a group blatantly disregarding the rule without consequence, highlighting the arbitrary or selective nature of rule enforcement. It plays on the "rules for thee but not for me" motif, pointing out hypocrisy or illogical exceptions in a playful manner. |
+| ![png](llava_files/llava_2.png) | The image is humorous because it shows an exaggerated contrast between two individuals' expertise levels across various disciplines, with one having significantly more experience and knowledge in each area. The satirical point lies in suggesting that sometimes people with lesser expertise might present themselves as equally or more knowledgeable, often leading to comical or ironic situations. |
+| ![png](llava_files/llava_3.png) | The image plays on the dual meaning of the word "but(t)." The first panel shows a person confidently starting a statement with "YES," suggesting they're about to make a point. The next panel reveals a comedic twist with visuals of dog butts, punning on the expected "BUT" argument rebuttal with literal animal behinds, creating a visual pun and subverting the expected serious or argumentative follow-up. |
+| ![png](llava_files/llava_4.png) | This image is humorous because it plays on the concept of sustainability. The first panel shows a reusable bottle with the recycling symbol, suggesting eco-friendliness. The second panel humorously undermines this by showing the bottle being filled with plastic, indicating a contradictory action to the supposed environmental commitment, thus, highlighting the irony of sometimes superficial environmental efforts. |
+| ![png](llava_files/llava_5.png) | The image is humorous because it highlights a common modern experience: reality often seems less impressive when captured on a smartphone camera. The left panel shows a large, beautiful moon as seen by the naked eye, while the right panel shows the same scene through a phone camera, where the moon appears disappointingly small and less impactful. The contrast pokes fun at the limitations of technology in conveying true scale and beauty. |
+| ![png](llava_files/llava_6.png) | The image humorously depicts the difference between the intended use of a product and common user behavior. While the left panel shows empty hangers implying that clothes should be hung on them ("YES"), the right panel displays clothes piled on a chair ("BUT"), which is a relatable depiction of how many people actually store their clothes in daily life, neglecting the hangers. |
+| ![png](llava_files/llava_7.png) | This image plays on the common frustration of attending an event with assigned seating, only to find that your seat is directly behind a pole or obstruction, blocking the view. It humorously exaggerates the issue by showing an entire audience perfectly aligned except for one obstructed seat, suggesting a comically unfortunate luck that the ticket holder has the only bad seat in the house. |
+| ![png](llava_files/llava_8.png) | The image seems to satirize the contradictory or conflicting attitudes towards health and safety. In the first panel, a person hesitates to get a vaccine shot, implying caution or skepticism. In contrast, the second panel shows the same person nonchalantly smoking, which is widely known to be harmful. The humor arises from the visual play on the word "shot," with the vaccine needle and the smoking gun, aligned with the text "YES, BUT," hinting at rationalizing one health risk while fearing another less risky action. |
+| ![png](llava_files/llava_9.png) | The image humorously comments on how people often do not use ergonomic chairs as intended. On the left, it says "YES," showing the chair's correct posture-supporting design. On the right, the word "BUT" indicates a common reality where the person slouches, negating the chair’s ergonomic benefits. The joke lies in the contrast between ideal use and actual user behavior. |
