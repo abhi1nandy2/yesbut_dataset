@@ -15,6 +15,16 @@ https://drive.google.com/file/d/1s5K0FlUOKUKknhKh9runmjDKouIAVxwM/view?usp=shari
   - `ROUGE-L` - https://pypi.org/project/py-rouge/ (F1-Score)
   - `BERTScore` - https://github.com/Tiiiger/bert_score
 - `generate_using_dalle3.ipynb` - contains the code for generating images using DALL-E 3
+- `Human_Eval_Results.csv` - contains Human Evaluation outcomes (majority vote per sample) of the Satirical Understanding Task on 30 images (10 images randomly sampled from each of Annotation Stages 2, 3, 4). Some columns and column headers are elaborated as follows - 
+  - `image_filename` - correspond to images present in `human_eval_images` foider
+  - For columns related to Appropriate Length, Correctness, Faithfulness, Visual Completeness, a blank value means that the annotator does not think that the corresponding aspect is being followed for the description.
+  - `order_of_overall_img_descriptions` - this column contains the list of models (or whether it is humman-written) to which the 6 descriptions correspond to in that order. The values mean the following things -
+    - `humanannotation` - Human-Written Description
+    - `minigpt` - Description generated using MiniGPT4
+    - `kosmos` - Description generated using Kosmos-2
+    - `llava` - Description generated using LLaVA
+    - `gpt4vision` - Description generated using GPT4
+    - `gemini` - Description generated using Gemini    
 
 ## Predicted Overall Image Descriptions
 
