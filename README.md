@@ -1,6 +1,13 @@
 # Code for the paper - "***YesBut***: A High-Quality Annotated Multimodal Dataset for evaluating Satire Comprehension capability of Vision-Language Models"
 
-https://drive.google.com/file/d/1s5K0FlUOKUKknhKh9runmjDKouIAVxwM/view?usp=sharing - contains the 283 images manually downloaded (and then manually filtered) from the posts in ‘X’ (erstwhile known as Twitter) handle @\_yesbut\_.
+## ***YesBut*** Dataset
+- https://drive.google.com/file/d/1s5K0FlUOKUKknhKh9runmjDKouIAVxwM/view?usp=sharing - contains the 283 images manually downloaded (and then manually filtered) from the posts in ‘X’ (erstwhile known as Twitter) handle @\_yesbut\_.
+- https://drive.google.com/file/d/1fHthLYNfcRFE4wEyWCMOUZHRVw3_ctNB/view?usp=sharing - Satirical Images annotated in Stage 3
+- https://drive.google.com/file/d/1Tzs4OcEJK469myApGqOUKPQNUtVyTRDy/view?usp=sharing - Non-Satirical Images annotated in Stage 3
+- https://drive.google.com/file/d/1YhXMEEiZnuv_VxORtEBR7JR3guhLBFjy/view?usp=sharing - Satirical Images annotated in Stage 4
+- https://drive.google.com/file/d/1i4Fy01uBZ_2YGPzyVArZjijleNbt8xRu/view?usp=sharing - Non-Satirical Images annotated in Stage 4
+
+## Files and relevant links
 
 - `YesBut_Stage2_Annotation.csv` - Second Stage Annotation results for ***YesBut***
 - Links for running the SOTA VL Models
