@@ -6,6 +6,7 @@
 - https://drive.google.com/file/d/1Tzs4OcEJK469myApGqOUKPQNUtVyTRDy/view?usp=sharing - Non-Satirical Images annotated in Stage 3
 - https://drive.google.com/file/d/1YhXMEEiZnuv_VxORtEBR7JR3guhLBFjy/view?usp=sharing - Satirical Images annotated in Stage 4
 - https://drive.google.com/file/d/1i4Fy01uBZ_2YGPzyVArZjijleNbt8xRu/view?usp=sharing - Non-Satirical Images annotated in Stage 4
+- https://drive.google.com/file/d/1YcikUqusUp_Lj0Y11-GiaZYaZ2c2qgCf/view?usp=sharing - 119 Satirical Real Photographs following the 'Yes, But' Theme.
 
 ## Files and relevant links
 
