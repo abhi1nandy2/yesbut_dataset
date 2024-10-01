@@ -1,5 +1,37 @@
 # Code for the paper - "***YesBut***: A High-Quality Annotated Multimodal Dataset for evaluating Satire Comprehension capability of Vision-Language Models"
 
+---
+
+# 🎉 Paper Accepted to EMNLP 2024 Main Proceedings! 🎉
+
+We are thrilled to announce that our paper has been **accepted to EMNLP 2024 Main Proceedings as a Long Paper**! 🏆✨
+
+---
+
+## 🔥 Paper Available Now! 🔥
+
+Our paper is now live and accessible on:
+
+- **Arxiv** 📄: [Read it here](https://arxiv.org/abs/2409.13592)
+- **HuggingFace** 🤗: [Check it out here](https://huggingface.co/papers/2409.13592) (40+ upvotes already!) 🚀  
+   *If you find the paper interesting, don't forget to give it an upvote! 👍*
+
+---
+
+## 🎥 Fun Explainer Video 🎥
+
+Check out our **fun and engaging video** explaining the paper in simple terms! Watch it on YouTube:  
+📺 [Watch Video](https://www.youtube.com/watch?v=S7zJis8rEbw)
+
+---
+
+The **YesBut Dataset** will soon be available on **HuggingFace Datasets**! 🤗  
+In the meantime, you can **download the dataset** via the Google Drive links below ⬇️:
+
+Stay tuned for updates! 🔔
+
+---
+
 ## ***YesBut*** Dataset
 - https://drive.google.com/file/d/1s5K0FlUOKUKknhKh9runmjDKouIAVxwM/view?usp=sharing - contains the 283 images manually downloaded (and then manually filtered) from the posts in ‘X’ (erstwhile known as Twitter) handle @\_yesbut\_.
 - https://drive.google.com/file/d/1fHthLYNfcRFE4wEyWCMOUZHRVw3_ctNB/view?usp=sharing - Satirical Images annotated in Stage 3
