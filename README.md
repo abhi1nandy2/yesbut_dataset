@@ -31,8 +31,9 @@ Check out our **fun and engaging video** explaining the paper in simple terms! W
 
 ---
 
-The **YesBut Dataset** will soon be available on **HuggingFace Datasets**! 🤗  
-In the meantime, you can **download the dataset** via the Google Drive links below ⬇️:
+The **YesBut Dataset** is available on **HuggingFace Datasets**! 🤗. [Get it here!](https://huggingface.co/datasets/bansalaman18/yesbut)
+
+You can also **download the dataset** via the Google Drive links below ⬇️:
 
 Stay tuned for updates! 🔔
 
